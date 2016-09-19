@@ -1,0 +1,23 @@
+{
+  "name": "developers-meeting",
+  "description": "This is an web-application where all developers can meet and discuss the new technology together",
+  "main": "index.js",
+  "authors": [
+    "Sumit Kumar Tiwari"
+  ],
+  "license": "MIT",
+  "keywords": [
+    "sass",
+    "gulp",
+    "angular",
+    "express",
+    "node",
+    "bower",
+    "material-design"
+  ],
+  "homepage": "index.html",
+  "dependencies": {
+    "jquery": "^3.1.0",
+    "angular": "^1.5.8"
+  }
+}

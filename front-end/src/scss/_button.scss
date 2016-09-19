@@ -1,0 +1,19 @@
+
+.btn{
+	@include large-text;
+	border-radius: 10px;
+	line-height: 1.5px;
+	background-color: $purple;
+	color:$red;
+	border-color: $green;
+	padding:10px;
+	height: 32px;
+	width: 120px;
+}
+
+.btn-reverse{
+	@extend .btn;
+	color:$purple;
+	background-color:  $green;
+}
+

@@ -1,0 +1,49 @@
+@import "variable";
+@import "mixins";
+@import "button";
+@import "aside";
+@import "section";
+@import "article";
+@import "navbar";
+//@import url("../li/glyphicons/font-awesome.min.css");
+
+
+div{
+	background-color: $more_dark_red; 		
+	width: 100px;
+	height: 100px;
+	label{
+		font-family: $sigmarOne;
+	}
+	
+}
+
+div.container1{
+	background-color: $less_dark_red;
+	padding-top: 100px;
+    margin:10px
+}
+
+.header.dummy{
+	width: 500;
+	height: 100px;
+	background-position: top center; 
+	background: url(../images/header.png)   no-repeat;
+}
+
+.article.dummy{
+	width: 500px;
+	height: 900px;
+	background-position: button center; 
+	background: url(../images/body.png)   no-repeat;
+}
+
+.footerStyle{
+	font-size:$footerFontSize;
+	font-family: $footerFamily;
+}
+
+footer{
+	bottom:0;
+	position:absolute;
+}

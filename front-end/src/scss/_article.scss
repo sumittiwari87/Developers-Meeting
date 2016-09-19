@@ -1,0 +1,12 @@
+.article{
+	float: left;
+	margin: 5px;
+}
+
+.article.footer{
+	@extend .article;
+	@extend .footerStyle;
+	a{
+		text-decoration:none;
+	}
+}

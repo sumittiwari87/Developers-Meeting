@@ -1,0 +1,22 @@
+@import 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans|Roboto+Slab|Sigmar+One';
+
+/**Create Variables*/
+$dark_red: #C45959;	
+$more_dark_red : darken($dark_red,10);
+$less_dark_red : lighten($dark_red,20);
+$blue: #337ab7;
+$more_blue: darken($blue,5);
+$less_blue: lighten ($blue,5);
+$green: #0B7A21;	
+$purple: #494196;	
+$red: #F2053C;	
+
+$openSans:'Open Sans', 'Heveletica',sans-serif;
+$robotoSlab:'Roboto Slab', serif;
+$sigmarOne:'Sigmar One', cursive;
+$gloriaHallelujah:'Gloria Hallelujah', cursive;
+
+
+//**Footer Variables **/
+$footerFamily:$openSans;
+$footerFontSize: 13px;

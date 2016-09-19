@@ -1,0 +1,102 @@
+@import 'https://fonts.googleapis.com/css?family=Gloria+Hallelujah|Open+Sans|Roboto+Slab|Sigmar+One';
+/**Create Variables*/
+.btn, .btn-reverse {
+  font-family: "Roboto Slab", serif;
+  font-size: 20px;
+  font-weight: bold;
+  color: #ff0000;
+  border-radius: 10px;
+  line-height: 1.5px;
+  background-color: #494196;
+  color: #F2053C;
+  border-color: #0B7A21;
+  padding: 10px;
+  height: 32px;
+  width: 120px; }
+
+.btn-reverse {
+  color: #494196;
+  background-color: #0B7A21; }
+
+.aside, .aside.footer {
+  float: right;
+  width: 350px;
+  margin: 5px; }
+
+.footer.aside ul {
+  list-style-type: none; }
+
+.footer.aside a {
+  text-decoration: none; }
+
+.section, .section.footer {
+  float: left;
+  width: 300px;
+  margin: 5px; }
+
+.article, .article.footer {
+  float: left;
+  margin: 5px; }
+
+.footer.article a {
+  text-decoration: none; }
+
+header {
+  height: 200px; }
+
+.navbar {
+  margin: 0;
+  top: 0;
+  left: 0;
+  right: 0;
+  width: 100%;
+  position: fixed;
+  overflow: hidden; }
+  .navbar ul {
+    background: #337ab7;
+    margin: 0;
+    padding: 0; }
+    .navbar ul li {
+      display: inline-block;
+      list-style-type: none;
+      margin-left: 10px; }
+      .navbar ul li a {
+        padding: 14px 30px 15px 15px;
+        color: white; }
+      .navbar ul li :hover {
+        background-color: #22527b; }
+        .navbar ul li :hover ul {
+          position: absolute;
+          display: block; }
+
+div {
+  background-color: #ad3d3d;
+  width: 100px;
+  height: 100px; }
+  div label {
+    font-family: "Sigmar One", cursive; }
+
+div.container1 {
+  background-color: #dfa4a4;
+  padding-top: 100px;
+  margin: 10px; }
+
+.header.dummy {
+  width: 500;
+  height: 100px;
+  background-position: top center;
+  background: url(../images/header.png) no-repeat; }
+
+.article.dummy {
+  width: 500px;
+  height: 900px;
+  background-position: button center;
+  background: url(../images/body.png) no-repeat; }
+
+.footerStyle, .footer.aside, .footer.section, .footer.article {
+  font-size: 13px;
+  font-family: "Open Sans", "Heveletica", sans-serif; }
+
+footer {
+  bottom: 0;
+  position: absolute; }

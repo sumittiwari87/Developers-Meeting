@@ -1,0 +1,5 @@
+{
+  "directory": "./front-end/dest/bower-components/",
+  "timeout": 120000,
+  "interactive":false
+}

@@ -1,0 +1,33 @@
+header{
+    height: 200px;
+}
+.navbar {
+    margin: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    width: 100%;
+    position: fixed;
+    overflow: hidden;
+    ul {
+        background: lighten($more_blue, 5);
+        margin: 0;
+        padding: 0;
+        li {
+            display: inline-block;
+            list-style-type: none;
+            margin-left: 10px;
+            a {
+                padding: 14px 30px 15px 15px;
+                color: white;
+            }
+             :hover {
+                background-color: darken($more_blue, 10);
+                ul {
+                    position: absolute;
+                    display: block;
+                }
+            }
+        }
+    }
+}

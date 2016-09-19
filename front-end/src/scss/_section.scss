@@ -1,0 +1,10 @@
+.section{
+	float: left;
+	width: 300px;
+	margin: 5px;
+}
+
+.section.footer{
+	@extend .section;
+	@extend .footerStyle;
+}
